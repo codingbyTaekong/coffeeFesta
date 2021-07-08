@@ -1,0 +1,34 @@
+@font-face {
+    font-family: "NotoSansKR-Black";
+    src: url("../fonts/NotoSansKR-Black.woff2");
+}
+
+@font-face {
+    font-family: "NotoSansKR-Bold";
+    src: url("../fonts/NotoSansKR-Bold.woff2");
+}
+
+@font-face {
+    font-family: "NotoSansKR-DemiLight";
+    src: url("../fonts/NotoSansKR-DemiLight.woff2");
+}
+
+@font-face {
+    font-family: "NotoSansKR-Light";
+    src: url("../fonts/NotoSansKR-Light.woff2");
+}
+
+@font-face {
+    font-family: "NotoSansKR-Medium";
+    src: url("../fonts/NotoSansKR-Medium.woff2");
+}
+
+@font-face {
+    font-family: "NotoSansKR-Regular";
+    src: url("../fonts/NotoSansKR-Regular.woff2");
+}
+
+@font-face {
+    font-family: "NotoSansKR-Thin";
+    src: url("../fonts/NotoSansKR-Thin.woff2");
+}
