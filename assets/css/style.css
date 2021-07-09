@@ -1,8 +1,152 @@
 html, body {
     width: 100%;
     height: 100%;
+    font-family: "NotoSansKR-Regular";
+    box-sizing: border-box;
+    overflow-x: hidden;
 }
+/****** COMMON-S ******/
 
+.wrap {
+    width: 100%;
+    background-color: #fff;
+    position: absolute;
+    top: 100%;
+}
 .wrapper {
     width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+.wrapper .desc{
+    font-size: 1.7vw;
+    line-height: 1.5;
+    text-align: center;
+}
+
+
+/****** COMMON-E ******/
+
+/****** SECTION-S *****/
+.sec1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+}
+.sec1 .mainImg{
+    width: 27%;
+}
+
+.sec1 .desc{
+    margin-top: 48px;
+}
+
+.sec2 .sec2-wrap1{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.sec2-wrap1 .sec2-desc {
+    margin-right: 15%;
+    margin-top: 10%;
+}
+
+.sec2 .sec2-wrap1 .sec2-desc .txt1{
+    font-size: 1.8vw;
+    line-height: 2.5;
+    margin-bottom: 38px;
+}
+.sec2 .sec2-wrap1 .sec2-desc .txt2{
+    font-size: 1.11vw;
+    line-height: 1.7;
+}
+
+.sec2 .sec2-wrap1 .phone{
+    width: 25%;
+    height: fit-content;
+    transform: translateY(6%);
+}
+
+.sec2 .sec2-wrap2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 3%;
+}
+.sec2 .sec2-wrap2 .sec2-desc{
+    font-size: 1.11vw;
+    line-height: 1.7;
+    margin-bottom: 8%;
+    margin-left: 5%;
+
+}
+.sec2 .sec2-wrap2 .sec2-desc .txt1{
+    font-size: 1.8vw;
+    line-height: 2.5;
+    margin-bottom: 38px;
+}
+.sec2 .sec2-wrap2 .curious{
+    width: 35%;
+    transform: translate(-18%,-13%);
+}
+.sec3{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 70vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9fafb;
+}
+.sec3 .coming{
+    width: 28%;
+    margin-bottom: 42.5px;
+}
+
+.sec3 .desc{
+    font-size: 1.5vw;
+    text-align: center;
+    line-height: 1.5;
+}
+/****** SECTION-E *****/
+
+/****** FOOTER-S *****/
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 119px;
+}
+.footer .small-logo img{
+    width: 292px;
+    height: 26px;
+}
+/****** FOOTER-S *****/
+
+@media (max-width: 1025px) {
+    .sec2-wrap1 .sec2-desc {
+        margin-right: 15%;
+    }
+
+    .sec2 .sec2-wrap1 .sec2-desc .txt1 {
+        font-size: 1.8vw;
+        line-height: 2;
+        margin-bottom: 15px;
+    }
+    .sec3 {
+        height: 30vh;
+    }
 }
