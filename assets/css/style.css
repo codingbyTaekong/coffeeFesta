@@ -7,6 +7,12 @@ html, body {
 }
 /****** COMMON-S ******/
 
+.particle {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+}
+
 .wrap {
     width: 100%;
     background-color: #fff;
