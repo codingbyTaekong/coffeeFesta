@@ -250,4 +250,8 @@ html, body {
         text-align: center;
         line-height: 1.5;
     }
+    .footer .small-logo img{
+        width: 132px;
+        height: 12px;
+    }
 }
